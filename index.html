@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilos.css" rel="stylesheet">
+        <!-- Animaciones CSS CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!--Fuente del footer-->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+    <title>Vanessa Siordia | Portafolio Web</title>
+    <style>
+        body{font-family: "Roboto", sans-serif;}
+        footer{font-family: "Playwrite-México", sans-serif;}
+    </style>
+    
+</head>
+<body>
+    <!--Barra de Navegación-->
+    <nav>
+        <h1>Vanessa Siordia</h1>
+        <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+        <img src="images/womancomputer.jpg" alt="women in tech" class="hero-img" loading="lazy">
+        <div class="bio animate__animated animate__shakeX">
+            <h2 class="bio-title">Acerca De Mí</h2>
+            <p class="bio-text">Me llamo Vanessa Siordia. Actualmente estoy estudiando Administración en la Facultad de Contaduría y Administración en Mérida, Yucatán.</p>
+           <p>Me gusta aprender cosas nuevas, me encanta la tecnología y la programación. Me encuentro aprendiendo sobre programación y diseño web con Technolochicas.
+            </p>
+        </div>
+    </section>
+
+    <!--About me-->
+    <section class="more-about">
+        <h2>Más Acerca Mí</h2>
+        <p>Me inscribí a este curso porque la programación web se ha vuelto un tema muy sonado últimamente, debido a que el internet es nuestra principal herramienta de trabajo hoy en día.</p>
+        <p>Me encuentro estudiando administración de empresas, aunque aún me estoy decidiendo si especializarme en Recursos Humanos o en Finanzas.</p>
+        <p>Fui el segundo mejor promedio de mi generación en preparatoria y me esmero por mantener un buen promedio durante mis estudios universitarios.</p>
+    </section>
+
+    <!--Skills-->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>  
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="images/icons8-html-5.svg" alt="HTML5" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-javascript.svg" alt="Javascript" loading="lazy" class="icon icon-card">              
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="images/icons8-bootstrap.svg" alt="bootstrap" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-github-50.svg" alt="Git" loading="lazy" class="icon icon-card">
+                <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+<!--Proyectos-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="images/interfaz-pinterest.png" alt="Copia de interfaz inicial de Pinterest" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest clone</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz del inicio de Pinterest, creado solamente con HTML5 y CSS3.</p>
+                <a href="https://iniciodepinterest-interfaz.vercel.app/" target="_blank" class="Project-link">Check it out!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/interfaz-pinterest.png" alt="Copia de la interfaz de inicio de Pinterest" loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 2</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="#" target="_blank" class="Project-link">Stay tune!</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img src="images/interfaz-pinterest.png" alt="Copia de la interfaz de inicio de Pinterest." loading="lazy" class="project-pic">
+                <h3 class="project-title">Project 3</h3>
+                <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                <a href="#" target="_blank" class="Project-link">Stay tune!</a>
+            </div>
+
+        </div>
+    </section>
+<!--Redes sociales-->    
+<div class="socials">
+    <a href="https://www.linkedin.com/in/vanessa-siordia-alcocer-749a4624a/" target="_blank"><img src="icons/icons8-logotipo-de-linkedin-100.png" alt="LinkedIn" loading="lazy" class="socicon"></a>
+
+    <a href="https://github.com/vanessa-1133" target="_blank"><img src="icons/icons8-github-100.png" alt="GitHub" loading="lazy" class="socicon"></a>
+
+    <a href="https://www.instagram.com/vsiordia117/" target="_blank"><img src="icons/icons8-instagram-100.png" alt="Instagram" loading="lazy" class="socicon"></a>
+
+    <a href="https://wa.me/529992589724" target="_blank"><img src="icons/icons8-whatsapp-100.png" alt="Whatsapp" loading="lazy" class="socicon"></a>
+
+    <a href="https://www.facebook.com/vanessa.siordia.98/?locale=es_LA" target="_blank"><img src="icons/icons8-facebook-nuevo-100.png" alt="Facebook" loading="lazy" class="socicon"></a>
+
+
+</div>
+
+<!--Scroll button-->
+<i class="scroll-up" id="scroll-up">
+    <img src="icons/flechahaciaarriba.gif" class="socicon up-arrow" alt="scroll-up, desplaza hacia arriba">
+</i>
+
+<!--footer-->
+    <footer class="footer" id="footer">
+        <p>⸜(｡˃ ᵕ ˂ )⸝♡ Hecho con {♡} por <a href="https://www.linkedin.com/in/vanessa-siordia-alcocer-749a4624a/" target="_blank">Vanessa Siordia</a>  (๑ > ᴗ < ๑)°ᡣ𐭩 . ° . !!</p>
+        <style>
+
+        </style>
+    </footer>
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+
+     <!--Ion icons scripts-->
+     <script
+     type="module"
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+   ></script>
+   <script
+     nomodule
+     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+   ></script>
+</body>
+</html>
